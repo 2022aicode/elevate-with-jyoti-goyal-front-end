@@ -1,0 +1,570 @@
+.banner {
+  position: relative;
+  background-image: url("./../../../../public/home_bg_1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 659px;
+}
+
+.banner_parent_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.banner_child_container_left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-left: 181px;
+}
+
+.banner_child_container_left_main_text {
+  font-family: "Marcellus";
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.banner_child_container_left_sub_text {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.banner_child_container_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.banner_child_container_right_img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 181px;
+}
+
+.subscribe_section {
+  position: absolute;
+  width: 860px;
+  height: 317px;
+  top: 547px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: #d2e6e7;
+}
+
+.subscribe_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.subscribe_child_container_left {
+  width: 30%;
+}
+
+.subscribe_child_container_right {
+  width: 70%;
+  flex-grow: 8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe_child_container_right_main_text {
+  font-family: "Marcellus";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.subscribe_child_container_right_sub_text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.organization_container {
+  margin-top: 309px;
+  margin-bottom: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about_me_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_me_child_container_left {
+  flex-grow: 1;
+  position: relative;
+}
+
+.about_me_child_container_right {
+  flex-grow: 8;
+}
+
+.about_me_child_container_left_main_img {
+}
+
+.about_me_child_container_left_jyoti_img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  bottom: 100px;
+  top: 100px;
+  left: 160px;
+}
+
+.about_me_child_container_right_content {
+  padding-left: 240px;
+  padding-right: 290px;
+}
+
+.about_me_child_container_right_heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e55e4b;
+}
+
+.about_me_child_container_right_main_heading {
+  font-family: "Marcellus";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about_me_child_container_right_desc {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about_me_child_container_right_button {
+  padding-top: 58px;
+}
+
+.my_program_container {
+  background-image: url("./../../../../public/my_program_bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.my_program_text_container {
+  margin-left: 180px;
+}
+
+.my_program_heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e55e4b;
+}
+
+.my_program_main_heading {
+  font-family: "Marcellus";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.my_program_video_container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 51px;
+  overflow: scroll;
+}
+
+.my_program_button {
+  padding-top: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my_program_video_thumbnail {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.my_program_video_thumbnail_text {
+  position: absolute;
+  width: 100%;
+  bottom: 27px;
+  left: 20px;
+}
+
+.my_program_video_thumbnail_title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.my_program_video_thumbnail_description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.my_service_container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./../../../../public/my_service_bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.my_service_text_container {
+  margin-left: 180px;
+}
+
+.my_service_heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e55e4b;
+}
+
+.my_service_main_heading {
+  font-family: "Marcellus";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.my_service_options_container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 82px;
+}
+
+.my_service_option {
+  padding-right: 18px;
+}
+
+.my_service_option_title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.my_service_option_description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.my_service_button {
+  padding-top: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story_container {
+  background: url("./../../../../public/story_bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.story_text_container {
+  margin-left: 180px;
+}
+
+.story_heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e55e4b;
+}
+
+.story_main_heading {
+  font-family: "Marcellus";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.story_option_carousel_container {
+  padding-top: 15px;
+}
+
+.story_option_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-bottom: 95px;
+  padding-top: 95px;
+}
+
+.story_option_text_container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.story_option_text_description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.story_option_text_name_org {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e55e4b;
+}
+
+.enthusiasm_container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./../../../../public/enthusiasm_bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.enthusiasm_child_container_left {
+  width: 40%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enthusiasm_child_container_right {
+  width: 60%;
+}
+
+.enthusiasm_child_container_left_main_img {
+}
+
+.enthusiasm_child_container_left_count {
+  background: url("./../../../../public/count_bg.png");
+  position: absolute;
+  width: 331px;
+  height: 87px;
+  left: 330px;
+  top: 417px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.enthusiasm_child_container_left_count_number {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.enthusiasm_child_container_left_count_title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.enthusiasm_child_container_right_content {
+  padding-right: 290px;
+}
+
+.enthusiasm_child_container_right_heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e55e4b;
+}
+
+.enthusiasm_child_container_right_main_heading {
+  font-family: "Marcellus";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.enthusiasm_child_container_right_desc {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.blog_container {
+  background-image: url("./../../../../public/blog_bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.blog_text_container {
+  margin-left: 180px;
+}
+
+.blog_heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e55e4b;
+}
+
+.blog_main_heading {
+  font-family: "Marcellus";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.blog_options_container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 82px;
+}
+
+.blog_option {
+  padding-right: 75px;
+}
+
+.blog_image {
+  position: relative;
+}
+.blog_image img {
+  filter: brightness(40%);
+}
+
+.blog_option_text_container {
+  position: absolute;
+  top: 203px;
+  left: 20px;
+  right: 20px;
+  bottom: 44px;
+}
+
+.blog_title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.blog_description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.blog_button {
+  padding-top: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog_motivational_text {
+  font-family: "Marcellus";
+  padding-top: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+}

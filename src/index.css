@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Marcellus";
+  src: local("Marcellus"),
+    url("./fonts/Marcellus/Marcellus-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open_Sans";
+  src: local("Open_Sans"),
+    url("./fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf")
+      format("truetype");
+  font-weight: 400;
+}
